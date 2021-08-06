@@ -3,7 +3,7 @@ import NavBar from './subcomponents/NavBar'
 
 const LandingPage = () => {
     return (
-        <div>
+        <div className="landing-page">
             <NavBar />
             <Body />
         </div>
