@@ -3,6 +3,7 @@ const CreatePost = () => {
     <div>
       <PostInput />
       <PostInput />
+      <PostToggle />
       <div>
         <Button>Post Now</Button>
         <Button>Save & Schedule</Button>
