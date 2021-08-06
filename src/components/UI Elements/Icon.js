@@ -1,5 +1,5 @@
-const Icon = ({ src, alt }) => {
-  return <img src={src} alt={alt} />;
+const Icon = ({ src, alt, height }) => {
+  return <img src={src} alt={alt} height={height} />;
 };
 
 export default Icon;
