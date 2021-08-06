@@ -1,3 +1,5 @@
+import GoogleAuth from '../subcomponents/GoogleAuth'
+
 const NavBar = () => {
     return (
         <div>

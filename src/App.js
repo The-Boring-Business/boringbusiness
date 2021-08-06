@@ -1,5 +1,7 @@
+import FileUpload from './components/Schedule Post/subcomponents/FileUpload'
+
 function App() {
-  return <></>;
+  return <><FileUpload/></>;
 }
 
 export default App;

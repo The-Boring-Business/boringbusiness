@@ -1,3 +1,5 @@
+import Icon from '../../../style/Icon'
+
 const GoogleAuth = () => {
     return (
         <button href="">

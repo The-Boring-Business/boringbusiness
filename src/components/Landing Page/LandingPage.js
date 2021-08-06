@@ -1,3 +1,6 @@
+import Body from './subcomponents/Body'
+import NavBar from './subcomponents/NavBar'
+
 const LandingPage = () => {
     return (
         <div>
