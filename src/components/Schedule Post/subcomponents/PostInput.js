@@ -2,7 +2,7 @@ import Icon from "./../../UI Elements/Icon";
 import gallery from "./../../../style/Icons/SchedulePost/gallery.svg";
 import wand from "./../../../style/Icons/SchedulePost/wand.png";
 
-const PostInput = ({ title, placeholder, imageUpload }) => {
+const PostInput = ({ title, placeholder, imageUpload, magicWand }) => {
   return (
     <div className="post-input-component">
       <p>{title}</p>
@@ -10,7 +10,7 @@ const PostInput = ({ title, placeholder, imageUpload }) => {
         <input type="text" placeholder={placeholder} />
         <div className="post-input-icons">
           {imageUpload === "True" ? <Icon src={gallery} height="30px" /> : null}
-          <Icon src={wand} height="30px" />
+          {magicWand === "True" ? <Icon src={wand} height="30px" /> : null}
         </div>
       </div>
     </div>

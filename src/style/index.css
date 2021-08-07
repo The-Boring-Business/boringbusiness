@@ -343,10 +343,10 @@ input[type="text"]::placeholder {
   width: 100%;
 }
 
-.create-post-btn-container > .btn-primary:first-child {
+/* .create-post-btn-container > .btn-primary:first-child {
   background-color: #f1f4fa;
   color: #1b2559;
-}
+} */
 
 /* Moderation */
 
