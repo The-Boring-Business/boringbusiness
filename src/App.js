@@ -2,13 +2,15 @@ import Profile from "./components/Profile/Profile";
 import Analytics from "./components/Analytics/Analytics";
 import Dashboard from "./components/Dashboard/Dashboard";
 import SchedulePost from "./components/Schedule Post/SchedulePost";
+import Moderation from "./components/Moderation/Moderation";
 
 function App() {
   return (
     <div className="app">
       <Dashboard />
       {/* <Profile /> */}
-      <Analytics />
+      <Moderation />
+      {/* <Analytics /> */}
       {/* <SchedulePost /> */}
     </div>
   );

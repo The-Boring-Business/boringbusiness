@@ -1,20 +1,23 @@
-const Reply = () => {
+import Icon from "../../UI Elements/Icon";
+import send from "./../../../style/Icons/Moderation/send.svg";
+
+const Reply = ({ profilePicture, senderName, label, message }) => {
   return (
     <div>
-      <h2></h2>
+      <h2>Send a Reply</h2>
       <div>
-        <img />
+        <img src={profilePicture} alt="profile" />
         <div>
-          <p></p>
+          <p>{senderName}</p>
 
-          <p></p>
+          <p>{message}</p>
         </div>
-        <span></span>
+        <span>{label}</span>
       </div>
-      <div>
+      <div className="input-text">
         <input type="text" />
         <button>
-          <Icon />
+          <Icon src={send} />
         </button>
       </div>
     </div>

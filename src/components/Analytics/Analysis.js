@@ -3,14 +3,14 @@ import FollowerCount from "./subcomponents/FollowerCount";
 import GrowthRate from "./subcomponents/GrowthRate";
 import Blog from "./../UI Elements/Blog";
 
-const Analysis = () => {
+const Analysis = ({ followerCount, growthRate, serviceName }) => {
   return (
     <div>
       <Chart />
       <div>
-        <FollowerCount />
-        <GrowthRate />
-        <Blog />
+        <FollowerCount followerCount={followerCount} />
+        <GrowthRate growthRate={growthRate} />
+        {/* <Blog serviceName={serviceName} /> */}
       </div>
     </div>
   );

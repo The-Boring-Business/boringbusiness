@@ -1,10 +1,14 @@
-import Analysis from "./Analysis"
+import Analysis from "./Analysis";
 
 const Analytics = () => {
   return (
     <div>
-      <Analysis />
-      <Analysis />
+      <Analysis
+        followerCount="11.7k"
+        growthRate="33k"
+        serviceName="Instagram"
+      />
+      <Analysis followerCount="11.7k" growthRate="33k" serviceName="Twitter" />
     </div>
   );
 };

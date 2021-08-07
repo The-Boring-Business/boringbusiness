@@ -1,16 +1,18 @@
-const Queries = () => {
-    return (
+import Icon from "../../UI Elements/Icon";
+import reply from "./../../../style/Icons/Moderation/reply.svg";
+
+const Queries = ({ profilePicture, senderName, label, message }) => {
+  return (
+    <div>
+      <img src={profilePicture} alt="Profile" />
       <div>
-          <img />
-          <div>
-              <p></p>
-              <span></span>
-              <p></p>
-          </div>
-          <Icon />
+        <p>{senderName}</p>
+        <span>{label}</span>
+        <p>{message}</p>
       </div>
-    );
-  };
-  
-  export default Queries;
-  
+      <Icon src={reply} />
+    </div>
+  );
+};
+
+export default Queries;

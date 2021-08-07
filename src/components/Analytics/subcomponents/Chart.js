@@ -1,15 +1,16 @@
 import Icon from "./../../UI Elements/Icon";
 
-const Chart = () => {
+const Chart = ({ impressions }) => {
   return (
-    <div>
+    <div className="component">
       <div>
         <div>
-          <p></p>
-          <h2>hey</h2>
+          <p>Last 7 Days</p>
+          <h2>{impressions} Impressions</h2>
         </div>
         <Icon />
       </div>
+      <div>{/* Chart */}</div>
     </div>
   );
 };

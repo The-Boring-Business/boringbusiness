@@ -1,12 +1,13 @@
 import Icon from "./../../UI Elements/Icon";
+import followerLogo from "./../../../style/Icons/Analytics/followers.svg";
 
-const FollowerCount = () => {
+const FollowerCount = ({ followerCount }) => {
   return (
     <div>
-      <Icon />
+      <Icon src={followerLogo} />
       <div>
-        <p></p>
-        <h3></h3>
+        <p>New followers</p>
+        <h3>{followerCount}</h3>
       </div>
     </div>
   );
