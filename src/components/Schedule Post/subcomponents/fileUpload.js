@@ -7,12 +7,12 @@ const FileUpload = () => {
 
   const changeHandler = async (event) => {
     setSelectedFile(event.target.files[0]);
-	const file = event.target.files[0]
+    const file = event.target.files[0];
     setIsFilePicked(true);
     const base64 = await convertFileToBase64(file);
-    
+
     setBaseImage(base64);
-	console.log(base64);
+    console.log(base64);
   };
 
   const convertFileToBase64 = (file) => {
@@ -22,14 +22,14 @@ const FileUpload = () => {
       reader.onload = () => {
         resolve(reader.result);
       };
-	  reader.onerror = (error) => {
+      reader.onerror = (error) => {
         reject(error);
       };
     });
   };
 
   const handleSubmission = () => {
-	  //// make post request
+    //// make post request
   };
 
   return (
