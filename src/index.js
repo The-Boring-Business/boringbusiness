@@ -4,11 +4,11 @@ import "./style/index.css";
 // import Icon from './components/UI Elements/Icon'
 import LogIn from "./components/Landing Page/subcomponents/LogIn";
 import FileUpload from "./components/Schedule Post/subcomponents/FileUpload";
-import TopGreeting from "./components/UI Elements/TopGreeting"
+import SchedulePost from "./components/Schedule Post/SchedulePost";
 
 ReactDOM.render(
   <React.StrictMode>
-    <TopGreeting />
+    <SchedulePost />
   </React.StrictMode>,
   document.getElementById("root")
 );

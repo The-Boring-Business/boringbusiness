@@ -1,8 +1,8 @@
-const PostDetails = () => {
+const PostDetails = ({time, content}) => {
     return (
-        <div>
-           <h3></h3>
-           <p></p>
+        <div className="post-details">
+           <h3>{time}</h3>
+           <p>{content}</p>
         </div>
     )
 }

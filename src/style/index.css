@@ -23,6 +23,58 @@ body {
   align-items: center;
 }
 
+.component {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 1rem;
+  padding:0rem 1rem;
+  padding-bottom: 1rem;
+
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.component > h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+
+.input-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  /* background-color: #f4f7fe;
+  border-radius: 8px; */
+
+  /* padding:0rem 1rem; */
+  width: 100%;
+}
+
+.input-text > input {
+  /* width: 100%; */
+  width: 100%;
+  padding: 12px 20px;
+  margin-right: 1rem;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  border-radius: 8px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border: 3px solid #1b2559;
+}
+
+input[type="text"]::placeholder {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: #1b2559;
+}
+
 /* Top Greeting */
 
 .top-greeting {
@@ -137,4 +189,148 @@ body {
 
   display: flex;
   justify-content: center;
+}
+
+/* Schedule Post */
+
+.temp-contain{
+    display: flex;
+    flex-direction: row;
+}
+
+.schedule-post {
+    background-color: #F4F7FE;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+}
+
+.schedule-post-main-container{
+    display: flex;
+    flex-direction: row;
+
+    /* width: 100 */
+}
+
+/* Schedule Post - Post Queue */
+
+.post-queue {
+  display: flex;
+  flex-direction: column;
+
+  width: 20%;
+
+  margin-left: 1rem;
+  padding:0rem 1rem;
+  padding-bottom: 1rem;
+
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.post-queue > h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+
+.post {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 1rem;
+}
+
+.post > * {
+  margin-right: 1.2rem;
+}
+
+.post-details > * {
+  margin: 0;
+  margin-left: -2rem;
+}
+
+.post-details > h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: Bold;
+  color: #1b2559;
+  font-size: 1rem;
+}
+
+.post-details > p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #a3aed0;
+  font-size: 0.8rem;
+}
+
+/* Schedule Post - Create Post */
+
+.create-post {
+  width: 30%;
+}
+
+.post-input-component > p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.post-input-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.post-input-icons > * {
+  margin-right: 1rem;
+}
+
+.post-toggle > p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.post-toggle-btn-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.post-toggle-btn{
+  background-color:#E9EDF7;
+  color: #1B2559;
+  margin-right: 1rem;
+  border-radius: 8px;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  width: 100vh;
+}
+
+.post-toggle-btn > * {
+    margin-right:0.5rem;
+}
+
+.create-post-btn-container {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1rem;
+}
+
+.create-post-btn-container > *{
+   display: flex;
+   justify-content: center;
+
+   margin-top: 1rem;
+
+   height:3rem;
+   width:100%;
+}
+
+.create-post-btn-container> .btn-primary:first-child{
+    background-color: #F1F4FA;
+    color: #1B2559;
 }
