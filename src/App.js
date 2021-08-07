@@ -8,7 +8,7 @@ import Twitter from './components/Analytics/subcomponents/Twitter'
 function App() {
   return (
     <div className="app">
-      <Dashboard />
+      <Dashboard />      
       {/* <Profile /> */}
       <Moderation />
       {/* <Analytics /> */}
