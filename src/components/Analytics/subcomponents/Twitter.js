@@ -42,7 +42,10 @@ const Twitter = (props) => {
     )
     .then(function (response) {
       console.log(response.data);
-      
+      localStorage.setItem("token_id", response.data["access_token_id"]);
+      localStorage.setItem("token_key", response.data["access_token_key"]);
+      localStorage.setItem("token_name", response.data["access_token_name"]);
+      localStorage.setItem("token_secret", response.data["access_token_secret"]);      
     })
     .catch(function (error) {
       console.log(error);
