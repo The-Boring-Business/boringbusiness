@@ -10,7 +10,7 @@ const Dashboard = () => {
     <div className="dashboard">
       <h2>Dashboard</h2>
       <div className="dashboard-menu-item-container">
-        <MenuItem icon={calendar} title="Schedule Posts" isActive="True" />
+        <MenuItem icon={calendar} title="Schedule" isActive="True" />
         <MenuItem icon={chart} title="Analytics" isActive="False" />
         <MenuItem icon={sheild} title="Moderation" isActive="False" />
         <MenuItem icon={profile} title="Profile" isActive="False" />

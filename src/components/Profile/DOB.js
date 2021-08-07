@@ -1,11 +1,12 @@
-const DOB = ({title}) => {
-    return (
+const DOB = ({ title }) => {
+  return (
+    <div className="profile-input">
+      <p>{title}</p>
       <div className="input-text">
-          <p>{title}</p>
-          <input type="date"/>
+        <input type="date" />
       </div>
-    );
-  };
-  
-  export default DOB;
-  
+    </div>
+  );
+};
+
+export default DOB;

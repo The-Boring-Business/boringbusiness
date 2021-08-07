@@ -6,8 +6,8 @@ import pic from "./../../style/Images/Avatar.png";
 
 const Profile = () => {
   return (
-    <div>
-      <div>
+    <div className="profile">
+      <div className="profile-user-services">
         <User
           name="Rishabh Singh"
           picture={pic}
