@@ -1,15 +1,19 @@
+import Chart from "./subcomponents/Chart";
+import FollowerCount from "./subcomponents/FollowerCount";
+import GrowthRate from "./subcomponents/GrowthRate";
+import Blog from "./../UI Elements/Blog";
+
 const Analysis = () => {
-    return (
+  return (
+    <div>
+      <Chart />
       <div>
-        <Chart />
-        <div>
-            <FollowerCount />
-            <GrowthRate />
-            <Blog />
-        </div>
+        <FollowerCount />
+        <GrowthRate />
+        <Blog />
       </div>
-    );
-  };
-  
-  export default Analysis;
-  
+    </div>
+  );
+};
+
+export default Analysis;

@@ -5,7 +5,7 @@ const GrowthRate = () => {
         <p>Growth</p>
         <h3>+</h3>
       </div>
-      <img />
+      {/* <img /> */}
     </div>
   );
 };

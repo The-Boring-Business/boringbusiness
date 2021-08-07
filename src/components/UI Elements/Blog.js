@@ -1,15 +1,16 @@
+import Icon from "./Icon";
+
 const Blog = () => {
-    return (
+  return (
+    <div>
       <div>
-          <div>
-              <p>Master </p>
-              <Icon />
-          </div>
-          <h2></h2>
-          <img />
+        <p>Master </p>
+        <Icon />
       </div>
-    );
-  };
-  
-  export default Blog;
-  
+      <h2></h2>
+      <img />
+    </div>
+  );
+};
+
+export default Blog;

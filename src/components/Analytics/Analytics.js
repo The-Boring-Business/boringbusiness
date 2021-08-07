@@ -1,3 +1,5 @@
+import Analysis from "./Analysis"
+
 const Analytics = () => {
   return (
     <div>

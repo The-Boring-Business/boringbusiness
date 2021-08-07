@@ -1,3 +1,5 @@
+import Icon from "./../../UI Elements/Icon";
+
 const FollowerCount = () => {
   return (
     <div>

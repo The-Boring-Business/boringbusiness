@@ -1,8 +1,10 @@
-const UserDetail = () => {
+import Icon from './../../UI Elements/Icon';
+
+const UserDetail = ({icon, detail}) => {
     return (
       <div>
-          <Icon />
-          <p></p>
+          <Icon src={icon} />
+          <p>{detail}</p>
       </div>
     );
   };

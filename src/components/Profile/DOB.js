@@ -1,8 +1,8 @@
-const DOB = () => {
+const DOB = ({title}) => {
     return (
-      <div>
-          <p></p>
-          <input type="date" />
+      <div className="input-text">
+          <p>{title}</p>
+          <input type="date"/>
       </div>
     );
   };
