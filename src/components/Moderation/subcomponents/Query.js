@@ -3,7 +3,7 @@ import reply from "./../../../style/Icons/Moderation/reply.svg";
 
 const Queries = ({ profilePicture, senderName, label, message }) => {
   return (
-    <div>
+    <div className="moderation-query">
       <img src={profilePicture} alt="Profile" />
       <div>
         <p>{senderName}</p>

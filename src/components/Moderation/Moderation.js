@@ -1,18 +1,24 @@
-import Queries from  "./subcomponents/Queries"
-import Reply from  "./subcomponents/Reply"
-import Blog from  "./../UI Elements/Blog"
+import Queries from "./subcomponents/Queries";
+import Reply from "./subcomponents/Reply";
+import Blog from "./../UI Elements/Blog";
+
+import profilePicture from "./../../style/Images/sender_image.png";
 
 const Moderation = () => {
-    return (
+  return (
+    <div>
+      <Queries />
       <div>
-          <Queries />
-          <div>
-              <Reply />
-              {/* <Blog /> */}
-          </div>
+        <Reply
+          profilePicture={profilePicture}
+          senderName="Alex Chapri"
+          label="Feedback"
+          message="Can we have a music channel?"
+        />
+        {/* <Blog /> */}
       </div>
-    );
-  };
-  
-  export default Moderation;
-  
+    </div>
+  );
+};
+
+export default Moderation;

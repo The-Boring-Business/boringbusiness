@@ -354,3 +354,11 @@ input[type="text"]::placeholder {
   background-color: #f1f4fa;
   color: #1b2559;
 }
+
+
+/* Moderation */
+
+.moderation-query {
+  display: flex;
+  flex-direction: row;
+}

@@ -3,7 +3,7 @@ import profilePicture from "./../../../style/Images/sender_image.png";
 
 const Queries = () => {
   return (
-    <div>
+    <div className="component">
       <h2>Raised Queries</h2>
       <Query
         profilePicture={profilePicture}
