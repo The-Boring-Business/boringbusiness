@@ -350,6 +350,19 @@ input[type="text"]::placeholder {
 
 /* Moderation */
 
+.moderation {
+  background-color: #f4f7fe;
+
+  width: 100rem;
+  margin-right: 200rem;
+}
+
+.moderation > img {
+ height: 100vh;
+
+}
+
+
 .moderation-query {
   display: flex;
   flex-direction: row;
@@ -521,4 +534,18 @@ input[type="text"]::placeholder {
 .profile-update-btn {
   margin-top: 2rem;
   width: 100%;
+}
+
+/* Analytics */
+
+.analytics {
+  background-color: #f4f7fe;
+
+  width: 100rem;
+  margin-right: 200rem;
+}
+
+.analytics > img {
+ height: 100vh;
+
 }
