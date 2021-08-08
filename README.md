@@ -31,7 +31,7 @@ Our Application the boring business is a great tool for any social media star or
 - Ai based Tweet content generator
 
 
-### Insta Bot (WIP)
+### Insta Bot (W.I.P)
 
 - schedule and post stories, post with relevant tags
 
