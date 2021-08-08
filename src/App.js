@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import {useState} from "react";
+import {useState,useEffect} from "react";
 import Profile from "./components/Profile/Profile";
 import Analytics from "./components/Analytics/Analytics";
 import Dashboard from "./components/Dashboard/Dashboard";
@@ -28,6 +28,7 @@ function App() {
         return <Profile />;
     }
   }
+
   return (
     <Router>
       <Switch>
@@ -36,10 +37,21 @@ function App() {
             <div className="dashboard">
               <h2>Dashboard</h2>
               <div className="dashboard-menu-item-container">
-                <MenuItem icon={calendar} title="Schedule" isActive="True"  />
-                <MenuItem icon={chart} title="Analytics" isActive="False"  />
+                <div onClick={() => setMode("schedule")}>
+                  <MenuItem icon={calendar} title="Schedule" isActive="True"  />
+                </div>
+                <div onClick={() => setMode("analytics")}>
+                  <MenuItem icon={chart} title="Analytics" isActive="False"  />
+                </div>
+                <div onClick={() => setMode("moderation")}>
+                  <MenuItem icon={sheild} title="Moderation" isActive="False"  />
+                </div>
+                <div onClick={() => setMode("profile")}>
+                  <MenuItem icon={profile} title="Profile" isActive="False"  />
+                </div>
+                {/* <MenuItem icon={chart} title="Analytics" isActive="False"  />
                 <MenuItem icon={sheild} title="Moderation" isActive="False" />
-                <MenuItem icon={profile} title="Profile" isActive="False" />
+                <MenuItem icon={profile} title="Profile" isActive="False" /> */}
               </div>
               <LogOut />
             </div>
