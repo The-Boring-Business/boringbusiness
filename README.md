@@ -10,7 +10,7 @@ Our Application the boring business is a great tool for any social media star or
 
 ## How we Built it
  - Applications hosted in Google Cloud
- - Data layer built using DataStaz Astra using client module built by us 
+ - Data layer built using DataStax Astra and Firebase using client module built by us 
  - React for Client 
  - Multiple Flask API to handle backend 
  - Bot function deployed on Google Serverless
@@ -20,7 +20,6 @@ Our Application the boring business is a great tool for any social media star or
 
 ## Feratures
 
-# Twitter Bot
 
 - schedule and post tweets 
 
