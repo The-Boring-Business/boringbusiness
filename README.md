@@ -1,5 +1,6 @@
 # The-Boring-Business
 ## Focus on what's important leave the Rest to Us
+
 <br>
 Our Application the boring business is a great tool for any social media star or a content creator who wishes to autmoate the management of his or her social media so that they can focus on creating better content maybe spend  their extra time for family ( *Vin Disel enters the chat*) or ( Spoiler Alert) maybe watching (spoiler alert)  Loki fall in love with Loki 
  
@@ -14,7 +15,8 @@ Our Application the boring business is a great tool for any social media star or
  - Multiple Flask API to handle backend 
  - Bot function deployed on Google Serverless
  - Google Vision for Hashtag generation
-
+![](img/arch.png)
+![](img/hashtag.png)
 
 ## Feratures
 
