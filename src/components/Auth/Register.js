@@ -52,7 +52,7 @@ const Register = () => {
           onChange={handleChange}
         />
       </label>
-      <button onClick={handleSubmit}>Submit</button>
+      <button onClick={handleSubmit}>Register</button>
     </form>
   );
 };
