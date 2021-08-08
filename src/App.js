@@ -6,7 +6,6 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import SchedulePost from "./components/Schedule Post/SchedulePost";
 import Moderation from "./components/Moderation/Moderation";
 import Twitter from "./components/Analytics/subcomponents/Twitter";
-import LandingPage from "./components/Landing Page/LandingPage";
 import MenuItem from "./components/Dashboard/subcomponents/MenuItem"
 import LogOut from "./components/Dashboard/subcomponents/LogOut";
 import calendar from "./style/Icons/Dashboard/Calendar.svg";
@@ -32,7 +31,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/dashboard">
+        <Route path="/">
           <div className="app">
             <div className="dashboard">
               <h2>Dashboard</h2>
@@ -61,9 +60,6 @@ function App() {
             {/* <Analytics /> */}
             {/* <SchedulePost /> */}
           </div>
-        </Route>
-        <Route path="/">
-          <LandingPage />
         </Route>
       </Switch>
       {/* <Twitter /> */}
