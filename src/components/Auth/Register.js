@@ -22,6 +22,7 @@ const Register = () => {
       e.preventDefault();
       axios.post("https://boringbusiness.azurewebsites.net/api/register",{'username':formData.username,'password':formData.password,'email':formData.email})
       .then(function(response) {
+          localStorage.setItem("username", formData.username);
           console.log(response)
       })
       .catch(function(error) {

@@ -7,7 +7,7 @@ const Service = ({ icon, serviceName, description, isConnect }) => {
       <Icon src={icon} height="80px" />
       <h3>{serviceName}</h3>
       <p>{description}</p>
-      <Connect isConnect={isConnect} />
+      <Connect isConnect={isConnect} serviceName={serviceName}/>
     </div>
   );
 };

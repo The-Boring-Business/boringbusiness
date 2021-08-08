@@ -22,6 +22,7 @@ const LogIn = () => {
         password: formData.password,
       })
       .then(function (response) {
+        localStorage.setItem("username", formData.username);
         console.log(response);
       })
       .catch(function (error) {

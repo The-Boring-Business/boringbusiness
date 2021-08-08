@@ -55,11 +55,9 @@ const Twitter = (props) => {
 
   return (
     <div>
-      <a
-        href={`https://api.twitter.com/oauth/authenticate?oauth_token=${token}`}
-      >
-        Log In
-      </a>
+      <button className="btn-primary profile-connect-btn profile-disconnect">
+        <a href={`https://api.twitter.com/oauth/authenticate?oauth_token=${token}`}>Connect</a>
+      </button>
     </div>
   );
 };
