@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# The-Boring-Business
+## Focus on what's important leave the Rest to Us
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br>
+Our Application the boring business is a great tool for any social media star or a content creator who wishes to autmoate the management of his or her social media so that they can focus on creating better content maybe spend  their extra time for family ( *Vin Disel enters the chat*) or ( Spoiler Alert) maybe watching (spoiler alert)  Loki fall in love with Loki 
+ 
+ ## What we propose 
+- One-stop Automation for all content creators and community managers out there.
+- The platform will have a set of tools that will help Creators manage their day-to-day routine work with a click of a button so that they can quickly get back to their work.
 
-## Available Scripts
+## How we Built it
+ - Applications hosted in Google Cloud
+ - Data layer built using DataStax Astra and Firebase using client module built by us 
+ - React for Client 
+ - Multiple Flask API to handle backend 
+ - Bot function deployed on Google Serverless
+ - Google Vision for Hashtag generation
+![](img/arch.png)
+![](img/hashtag.png)
 
-In the project directory, you can run:
+## Feratures
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- schedule and post tweets 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- comments review and moderation (WIP)
 
-### `npm test`
+- User Engagement Analytics
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Ai based Tweet content generator
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Insta Bot (W.I.P)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- schedule and post stories, post with relevant tags
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- insights/sentiment or something better 
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Discord bot (W.I.P)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- post announcements
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- moderate chats
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- send reminders
+ 
+ 
