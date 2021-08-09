@@ -50,7 +50,7 @@ const LogIn = () => {
           onChange={handleChange}
         />
       </label>
-      <button onClick={handleSubmit}>Log In</button>
+      <button type="submit"  onClick={handleSubmit}>Log In</button>
     </form>
   );
 };
